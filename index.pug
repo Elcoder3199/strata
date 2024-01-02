@@ -1,0 +1,113 @@
+doctype
+html
+ head
+  //- Font Awesome file
+  link(rel="stylesheet" href="css/all.min.css")
+  //-  Main Css file
+  link(rel="stylesheet" href="css/main.css")
+  //- Font Google
+  link(rel="preconnect" href="https://fonts.googleapis.com")
+  link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+  link(href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,700;0,800;1,300;1,400;1,700&display=swap" rel="stylesheet")
+  link(rel="shortcut icon" href="imgs/download.png" type="image/x-icon")
+  meta(charset="UTF-8")
+  meta(name="viewport" content="width=device-width, initial-scale=1.0")
+  title Portfolio
+ body
+  span.overlay
+  div.pop_image
+    img
+  main.main
+   .leftSide
+    .a
+     .personalImage
+       img(src="imgs/8187.jpg")
+     .contentSide
+       h1 Hello I am Ahmed
+       p.major Front End Developer
+       .hire #[a(href="#") Hire Me]
+     ul.social
+       li 
+        a(href="#") 
+         i(class="fab fa-facebook")
+       li 
+        a(href="")
+         i(class="fab fa-twitter")
+       li 
+        a(href="#")
+         i(class="fab fa-github")
+       li 
+        a(href="#")
+         i(class="fab fa-instagram")
+   .mainSide
+    .aboutMe.section
+     .container
+       h1 About Me
+       p.disc Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.
+       a(href="#" class="mainBtn") Learn More
+    .portfolio.section
+     .heading Recen Projec
+     .container
+       .portfolioBox
+        .imageBox
+         .show Show
+         img(src="imgs/01.jpg")
+        h2.portfolioTitle Design Web Projec
+        p.disc Hello World Again I am Here
+
+       .portfolioBox
+        .imageBox
+         .show Show
+         img(src="imgs/02.jpg")
+        h2.portfolioTitle Design Web Projec
+        p.disc Hello World Again I am Here
+
+       .portfolioBox
+        .imageBox
+         .show Show
+         img(src="imgs/03.jpg")
+        h2.portfolioTitle Design Web Projec
+        p.disc Hello World Again I am Here
+ 
+       .portfolioBox
+        .imageBox
+         .show Show
+         img(src="imgs/04.jpg")
+        h2.portfolioTitle Design Web Projec
+        p.disc Hello World Again I am Here
+
+       .portfolioBox
+        .imageBox
+         .show Show
+         img(src="imgs/05.jpg")
+        h2.portfolioTitle Design Web Projec
+        p.disc Hello World Again I am Here
+
+       .portfolioBox
+        .imageBox
+         .show Show
+         img(src="imgs/06.jpg")
+        h2.portfolioTitle Design Web Projec
+        p.disc Hello World Again I am Here
+    .contact.section
+      h1.heading Get in touch
+      p.disc Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.
+       .container
+        form(class="form" action="#" method="post")
+         .inp
+          input(type="text" placeholder="Your Name")
+          input(type="email" placeholder="Your Email")
+          input(type="phone" placeholder="Your Phone")
+          textarea(placeholder="Your Message" class="message")
+          input(type="submit" class="mainBtn" value="send")
+        .addresses
+           div
+            i(class="fa-solid fa-location-dot")
+            p Sudan Kassala State
+           div
+            i(class="fa-solid fa-phone-volume")
+            a(href="tel:+249 903366770") +249 903366770
+           div
+            i(class="fa-solid fa-house")
+            p Street Line 2 #44
+  script(src="js/main.js")

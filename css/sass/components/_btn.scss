@@ -1,0 +1,21 @@
+.mainBtn {
+    border: solid 3px #ddd;
+    padding: 1.2rem 1.7rem;
+    display: block;
+    width: fit-content;
+    color: $headingColor;
+    margin: 2rem 0;
+    border-radius: 0.3rem;
+    transition: $maintransition;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    @media screen and (max-width: 620px) {
+        padding: 1rem 1.5rem;
+        font-size: 1rem;
+      }
+    &:hover {
+        border: solid 3px $mainColor;
+    }
+}
